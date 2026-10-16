@@ -1,5 +1,8 @@
 # DeepSeek Harness 本地会话管理工具
 
+> 界面与交互**移植自** [codex-local-session-manager](https://github.com/zhengshukeji/codex-local-session-manager)（Apache-2.0），
+> 数据层针对 DeepSeek Harness 的存储格式重写，详见 [来源与致谢](#来源与致谢)。
+
 单文件网页工具，用于在本地浏览、检索、导出和清理 **DeepSeek Harness (DSH)** 的会话记录。
 功能对齐 Codex 本地会话管理器（https://codex-local-session-manager.zhengshuyun.com/），数据格式适配 DSH 的 `~/.dsh` 目录。
 
