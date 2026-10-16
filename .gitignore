@@ -1,0 +1,10 @@
+# 会话夹具含真实会话数据，不要提交
+test/fixture/
+# 开发过程中的临时探针脚本与日志
+test/scratch/
+test/*.log
+# 上游参考实现副本
+ref/
+# 解压出的中间产物
+test/fzstd-out.jsonl
+node_modules/

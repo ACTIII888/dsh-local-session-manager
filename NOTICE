@@ -1,0 +1,17 @@
+DSH 本地会话管理工具 (dsh-local-session-manager)
+Copyright (C) 2026 ACTIII888
+
+本产品包含并衍生自 codex-local-session-manager 项目:
+    https://github.com/zhengshukeji/codex-local-session-manager
+    Copyright (C) zhengshuyun.com
+    Licensed under the Apache License, Version 2.0
+
+其界面结构、交互流程与部分样式移植自上述项目, 会话读取 / 解码 / 清理逻辑
+针对 DeepSeek Harness (~/.dsh) 的存储格式重新实现.
+
+本产品包含以下第三方组件:
+    fzstd 0.1.1
+        Copyright (c) 2020 Arjun Barrett
+        MIT License
+        https://github.com/101arrowz/fzstd
+        以 vendor/fzstd.min.js 形式内置, 用于 zstd 解压; 许可证全文见 vendor/fzstd.LICENSE.txt
